@@ -164,6 +164,7 @@
           dell-xps-17-9700-intel = import ./dell/xps/17-9700/intel;
           dell-xps-17-9700-nvidia = import ./dell/xps/17-9700/nvidia;
           dell-xps-17-9710-intel = import ./dell/xps/17-9710/intel;
+          dell-da14250 = import ./dell/premium/DA14250;
           framework = import ./framework;
           framework-11th-gen-intel = import ./framework/13-inch/11th-gen-intel;
           framework-12th-gen-intel = import ./framework/13-inch/12th-gen-intel;
