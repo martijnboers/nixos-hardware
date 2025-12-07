@@ -14,16 +14,4 @@
 
   # This will save you money and possibly your life!
   services.thermald.enable = lib.mkDefault true;
-
-  boot.kernelPatches = [
-    {
-      name = "enable-soundwire-drivers";
-      patch = null;
-      extraConfig = ''
-        SND_SOC_INTEL_USER_FRIENDLY_LONG_NAMES y
-        SND_SOC_INTEL_SOUNDWIRE_SOF_MACH m
-        SND_SOC_RT1308 m
-      '';
-    }
-  ];
 }
